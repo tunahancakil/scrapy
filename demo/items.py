@@ -11,9 +11,7 @@ import scrapy
 class DemoItem(scrapy.Item):
     title = scrapy.Field()
     image_urls = scrapy.Field()
-    images = scrapy.Field()
-
-class ImagecrawlItem(scrapy.Item):
-    host= scrapy.Field()
-    s=scrapy.Field()
-    src_link = scrapy.Field()
+    image_name = scrapy.Field()
+    image_paths = scrapy.Field()
+    price = scrapy.Field()
+    author = scrapy.Field()

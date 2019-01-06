@@ -14,7 +14,8 @@ BOT_NAME = 'demo'
 SPIDER_MODULES = ['demo.spiders']
 NEWSPIDER_MODULE = 'demo.spiders'
 ITEM_PIPELINES = {'demo.pipelines.DemoPipeline': 1}
-IMAGES_STORE = '/home/tunahan/N11images'
+IMAGES_STORE = '/Users/mertsirvanci/projects/scrapy/N11images'
+
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
