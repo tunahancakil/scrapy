@@ -1,5 +1,4 @@
 # scrapy
-scrapy
 
 You must have Python 3
 
